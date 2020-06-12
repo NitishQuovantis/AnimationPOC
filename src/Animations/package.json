@@ -1,0 +1,15 @@
+{
+  "name": "Animations",
+  "files": [
+    "index.js",
+    "BackgroundColorAnimation.js",
+    "OpacityAnimation.js",
+    "ParallelAnimation.js",
+    "PercentageDimensionAnimation.js",
+    "RotationAnimation.js",
+    "ScaleAnimation.js",
+    "SequenceAnimation.js",
+    "SpringAnimation.js",
+    "Translate.js"
+  ]
+}
