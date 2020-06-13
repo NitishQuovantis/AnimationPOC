@@ -24,6 +24,7 @@ import {
   NumberAnimation1,
   NumberAnimation2,
   CenterTextToLeftAlignText,
+  SimpleGestureAnimation,
 } from '../Animations';
 import Home from '../Home';
 import {createAppContainer} from 'react-navigation';
@@ -56,6 +57,7 @@ const appStack = createStackNavigator({
   NumberAnimation1,
   NumberAnimation2,
   CenterTextToLeftAlignText,
+  SimpleGestureAnimation,
 });
 
 const AppContainer = createAppContainer(appStack);

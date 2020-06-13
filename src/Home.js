@@ -175,6 +175,13 @@ export default class Home extends Component {
             this.props.navigation.navigate('EmptyToFilledCard');
           }}
         />
+
+        <Button
+          title="Simple Gesture Event"
+          onPress={() => {
+            this.props.navigation.navigate('SimpleGestureAnimation');
+          }}
+        />
       </ScrollView>
     );
   }
