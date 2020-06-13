@@ -105,6 +105,28 @@ export default class Home extends Component {
         />
 
         <Text>Examples</Text>
+
+        <Button
+          title="Number Animation 1"
+          onPress={() => {
+            this.props.navigation.navigate('NumberAnimation1');
+          }}
+        />
+
+        <Button
+          title="Number Animation 2"
+          onPress={() => {
+            this.props.navigation.navigate('NumberAnimation2');
+          }}
+        />
+
+        <Button
+          title="Center Text To Left Align Text"
+          onPress={() => {
+            this.props.navigation.navigate('CenterTextToLeftAlignText');
+          }}
+        />
+
         <Button
           title="HamburgerToTick"
           onPress={() => {
@@ -144,6 +166,13 @@ export default class Home extends Component {
           title="SwitchAnimation"
           onPress={() => {
             this.props.navigation.navigate('SwitchAnimation');
+          }}
+        />
+
+        <Button
+          title="Empty To Filled Card"
+          onPress={() => {
+            this.props.navigation.navigate('EmptyToFilledCard');
           }}
         />
       </ScrollView>

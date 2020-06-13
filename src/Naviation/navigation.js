@@ -20,6 +20,10 @@ import {
   SlideAndRemove,
   ClockAnimation,
   SwitchAnimation,
+  EmptyToFilledCard,
+  NumberAnimation1,
+  NumberAnimation2,
+  CenterTextToLeftAlignText,
 } from '../Animations';
 import Home from '../Home';
 import {createAppContainer} from 'react-navigation';
@@ -48,6 +52,10 @@ const appStack = createStackNavigator({
   SlideAndRemove,
   ClockAnimation,
   SwitchAnimation,
+  EmptyToFilledCard,
+  NumberAnimation1,
+  NumberAnimation2,
+  CenterTextToLeftAlignText,
 });
 
 const AppContainer = createAppContainer(appStack);
