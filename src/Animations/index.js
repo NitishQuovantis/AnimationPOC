@@ -24,3 +24,4 @@ export * from './NumberAnimation1';
 export * from './NumberAnimation2';
 export * from './CenterTextToLeftAlignText';
 export * from './SimpleGestureAnimation';
+export * from './PinchZoom';
