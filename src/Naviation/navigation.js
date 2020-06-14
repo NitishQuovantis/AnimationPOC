@@ -30,6 +30,7 @@ import {
 import Home from '../Home';
 import CoreExamples from '../CoreExamples';
 import GestureAnimations from '../GestureAnimations';
+import Tinder from '../Tinder';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
@@ -64,6 +65,7 @@ const appStack = createStackNavigator({
   CoreExamples,
   GestureAnimations,
   PinchZoom,
+  Tinder,
 });
 
 const AppContainer = createAppContainer(appStack);

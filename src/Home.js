@@ -23,6 +23,13 @@ export default class Home extends Component {
           }}
         />
 
+        <Button
+          title={'Tinder'}
+          onPress={() => {
+            this.props.navigation.navigate('Tinder');
+          }}
+        />
+
         <Text>Examples</Text>
 
         <Button
