@@ -50,9 +50,9 @@ export default class Tinder extends Component {
     }
 
     if (oldState === State.ACTIVE) {
-      if (velocityX > 500 && translationX > SCREEN_WIDTH / 3) {
+      if (velocityX > 300 && translationX > SCREEN_WIDTH / 3) {
         this.swipeRight({duration: 250});
-      } else if (velocityX < -500 && translationX < -SCREEN_WIDTH / 3) {
+      } else if (velocityX < -300 && translationX < -SCREEN_WIDTH / 3) {
         this.swipeLeft({duration: 250});
       } else {
         this.springBackToInitialPosition();
